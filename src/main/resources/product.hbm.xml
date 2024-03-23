@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="domain.Product" table="product">
+        <id name="productid" column="product_id"></id>
+        <property name="productname" column="product_name"/>
+        <property name="productprice" column="product_price"/>
+        <property name="productcategory" column="product_category"/>
+
+    </class>
+</hibernate-mapping>
